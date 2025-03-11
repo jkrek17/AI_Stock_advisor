@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+!.streamlit/secrets.toml.example
+
+# Log files
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# OS specific files
+.DS_Store
+Thumbs.db 
